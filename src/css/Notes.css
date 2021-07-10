@@ -1,0 +1,17 @@
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.number{
+    margin: 15px;
+    color: #292626;
+}
+.noNote{
+    font-weight: bold;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    padding: 5px;
+    color: #292626;
+}

@@ -1,0 +1,124 @@
+.cross{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #FFEFD5;
+    background-color: red;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+    position: fixed;
+  }
+  .top{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    transition: top 0.2s; 
+  }
+  
+  .top:hover{
+    top: 4px;
+  }
+  
+  .plus{
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #F8F7F3;
+    margin: 15px auto;
+    font-size: 1.3rem;
+    border: 6px solid #3B8C8F;
+  }
+  .plus:hover{
+    background-color: #3B8C8F;
+  }
+  
+  .heading{
+    margin: 20px;
+    padding: 20px;
+    /* color: #5D341F; */
+  }
+  
+  .new{
+    font-weight: bold;
+    margin: 12px;
+    /* color: #5D341F; */
+  }
+  
+  .img{
+    width: 80%;
+    margin: 0 auto;
+    transition: top 2s ;
+    position: relative;  
+    top:0;
+    border-radius: 8px;
+  }
+  .img:hover {
+    top: -15px;
+  }
+  
+  /* /////// */
+  
+  .content {
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color: papayawhip;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3B8C8F;
+  }
+  
+  .animate-modal {
+    animation: animatemodal 0.5s;
+  }
+  
+  @keyframes animatemodal {
+    from {
+    /* bottom: -100px; */
+      opacity: 0;
+    }
+  
+    to {
+      bottom: 40px;
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  @media (max-width : 800px){
+    .img{
+      width: 95%;
+      height: auto;
+    }
+    .plus{
+      padding: 10px;
+      margin: 10px auto;
+      font-size: 1.1rem;
+    }
+    .cross{
+      padding: 10px;
+    }
+  }

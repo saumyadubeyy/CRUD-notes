@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 6vh;
+    width: 90%;
+    margin: 0 auto;    
+    font-size: 1.2em;
+    color: #292626;
+}
+@media (max-width : 800px){
+    nav{
+        width: 100%;
+    }
+}
