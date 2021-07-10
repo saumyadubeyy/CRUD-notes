@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/CRUD-notes/static/css/main.e5c2b9b3.chunk.css",
+    "main.js": "/CRUD-notes/static/js/main.f6116601.chunk.js",
+    "main.js.map": "/CRUD-notes/static/js/main.f6116601.chunk.js.map",
+    "runtime-main.js": "/CRUD-notes/static/js/runtime-main.daee1350.js",
+    "runtime-main.js.map": "/CRUD-notes/static/js/runtime-main.daee1350.js.map",
+    "static/js/2.e10a7bfa.chunk.js": "/CRUD-notes/static/js/2.e10a7bfa.chunk.js",
+    "static/js/2.e10a7bfa.chunk.js.map": "/CRUD-notes/static/js/2.e10a7bfa.chunk.js.map",
+    "index.html": "/CRUD-notes/index.html",
+    "static/css/main.e5c2b9b3.chunk.css.map": "/CRUD-notes/static/css/main.e5c2b9b3.chunk.css.map",
+    "static/js/2.e10a7bfa.chunk.js.LICENSE.txt": "/CRUD-notes/static/js/2.e10a7bfa.chunk.js.LICENSE.txt",
+    "static/media/main.8844c01f.png": "/CRUD-notes/static/media/main.8844c01f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daee1350.js",
+    "static/js/2.e10a7bfa.chunk.js",
+    "static/css/main.e5c2b9b3.chunk.css",
+    "static/js/main.f6116601.chunk.js"
+  ]
+}
