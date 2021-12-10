@@ -20,7 +20,7 @@ const Notes = () => {
     if(notes.length === 0 ) {
         return (
             <div className="noNote">
-                There are no notes yet.<br /> Please create a new one :)
+                There are no notes yet.<br /> Please create a new one!
             </div>
         )
     }

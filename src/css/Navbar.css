@@ -13,3 +13,60 @@ nav{
         width: 100%;
     }
 }
+
+.signIn{
+    cursor: pointer;
+    color: #3B8C8F;
+    position: relative;
+    font-weight: 900;
+    padding: 5px;
+    border-bottom: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.signIn:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F64C72;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.signIn:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.signIn:hover{
+    color: #F64C72;;
+}
+.signOut{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    color: #3B8C8F;
+}
+.signOut::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F64C72;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.signOut:hover{
+    color: #F64C72;;
+}
+.signOut:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

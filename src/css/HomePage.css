@@ -29,18 +29,24 @@
   }
   
   .plus{
-    padding: 15px;
-    border-radius: 30px;
+    padding: 10px 20px;
+    border-radius: 12px;
     cursor: pointer;
-    font-weight: bold;
-    background-color: #F8F7F3;
+    color: #F8F7F3;
+    font-family: poppins;
+    font-weight: 500;
     margin: 15px auto;
     font-size: 1.3rem;
-    border: 6px solid #3B8C8F;
-  }
-  .plus:hover{
+    border: none;
+    position: relative;
+    bottom: 0;
     background-color: #3B8C8F;
+    transition: 0.5s bottom;
   }
+
+ .plus:hover{
+  box-shadow: 0 0 10px rgba(33,33,33,22); 
+ }
   
   .heading{
     margin: 20px;
@@ -55,7 +61,7 @@
   }
   
   .img{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     transition: top 2s ;
     position: relative;  
@@ -63,7 +69,7 @@
     border-radius: 8px;
   }
   .img:hover {
-    top: -15px;
+    top: -10px;
   }
   
   /* /////// */

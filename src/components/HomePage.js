@@ -35,7 +35,7 @@ const HomePage = () => {
               </Modal>
               <Notes />
               <div>
-                <button onClick={newNote} className="plus">New Note</button>
+                <button onClick={newNote} className="plus">New note</button>
               </div>
         </div>
     )
