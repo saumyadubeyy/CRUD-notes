@@ -1,12 +1,13 @@
 .form{
     color: #5D341F;
-    padding: 20px;
+    padding-top: 20px;
     margin: auto;
     width: 90%;
     font-size: 20px;
     font-weight: bold;
     border-radius: 8px;
 }
+
 .error{
     color: red;
     animation: blinkingText 1.2s infinite;
@@ -41,7 +42,6 @@
     height: 100%;
     position: relative;
     top: 0;
-    cursor: pointer;
     transition: top 0.3s;
 }
 .textarea::placeholder {
