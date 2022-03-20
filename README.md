@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Redux-Notes <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-notes-business-kiranshastry-lineal-color-kiranshastry.png" width="30px" height="30px" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Notes app made by using React & Redux which allows the user to create, display, modify and delete their notes.
+- Used this project to learn Redux, and hence used Redux for state management.
+- Used Firebase Authentication & Firebase Firestore (still in implementation).
+- It’s responsive for all devices.
+- Tech: ReactJS, Redux, Firebase, CSS3, Javascript (ES6).
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Snippets of the Project
+<p align="center">
+  <h3>Web UI: </h3>
+  <img src="https://user-images.githubusercontent.com/56453693/159185553-503224f4-2445-42ca-bf84-3489806ebdde.png" />
+  <img src="https://user-images.githubusercontent.com/56453693/159185570-28dc4992-0ffb-40bb-a3d3-bc82d1b93fc0.png" />
+  <img src="https://user-images.githubusercontent.com/56453693/159185585-75542116-0fb2-4551-b8da-5a23af9dc65b.png" />
+  <img src="https://user-images.githubusercontent.com/56453693/159185626-cfcb8937-b83e-4f2f-a136-ba45e9a263c8.png" />
+  <img src="https://user-images.githubusercontent.com/56453693/159185687-a5168e21-10c5-4921-9097-4e361730e8e4.png" />
+  <h3>Mobile UI: </h3>
+  <img src="https://user-images.githubusercontent.com/56453693/159185720-bb322d72-707e-47b3-98c5-04f202cfd404.png" />
+</p>
